@@ -1,0 +1,24 @@
+[hdfsnamenode]
+65.0.103.181 ansible_ssh_user=ec2-user  ansible_ssh_private_key_file=/root/mumbaikey.pem ansible_become=yes
+
+[hdfsdatanode]
+13.233.96.173 ansible_ssh_user=ec2-user  ansible_ssh_private_key_file=/root/mumbaikey.pem ansible_become=yes
+13.235.49.180 ansible_ssh_user=ec2-user  ansible_ssh_private_key_file=/root/mumbaikey.pem ansible_become=yes
+52.66.236.248 ansible_ssh_user=ec2-user  ansible_ssh_private_key_file=/root/mumbaikey.pem ansible_become=yes
+
+[mapred_job_tracker]
+65.1.64.25 ansible_ssh_user=ec2-user  ansible_ssh_private_key_file=/root/mumbaikey.pem ansible_become=yes
+
+[mapred_task_tracker]
+13.233.207.71 ansible_ssh_user=ec2-user  ansible_ssh_private_key_file=/root/mumbaikey.pem ansible_become=yes
+13.235.8.49 ansible_ssh_user=ec2-user  ansible_ssh_private_key_file=/root/mumbaikey.pem ansible_become=yes
+13.235.254.254 ansible_ssh_user=ec2-user  ansible_ssh_private_key_file=/root/mumbaikey.pem ansible_become=yes
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+- hosts: localhost
+  tasks:
+    - name: line insert
+      lineinfile:
+        path: /root/ansibleWORKSPACE/hadoop/test.txt
+        line: 'Added Line 2'
